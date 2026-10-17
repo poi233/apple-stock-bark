@@ -1,0 +1,16 @@
+{
+  "storefront": "us",
+  "postal_code": "97204",
+  "stores": {
+    "R077": "Pioneer Place"
+  },
+  "products": [
+    {
+      "name": "AirTag (verify your exact pack / SKU before using)",
+      "part": "MFE94LL/A",
+      "url": "https://www.apple.com/shop/buy-airtag/airtag"
+    }
+  ],
+  "interval_seconds": 120,
+  "reminder_seconds": 900
+}

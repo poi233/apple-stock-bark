@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+.bark-url
+config.json
+config.*.local.json
+*.log
+.DS_Store
