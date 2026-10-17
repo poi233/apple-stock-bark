@@ -55,6 +55,21 @@ python monitor.py --test-notify
 
 ## 配置
 
+### iPhone 18 Pro Max 512GB 冰川蓝示例
+
+完整配置见 [config.iphone18-pm.example.json](config.iphone18-pm.example.json)：美国无锁版，SKU `MJWC4LL/A`，邮编 `97204`，监控 Portland 的 Pioneer Place（R077）、Washington Square（R090）和 Bridgeport Village（R134）。每轮结束等待 120 秒，持续有货每 900 秒再次提醒。
+
+```bash
+python monitor.py --config config.iphone18-pm.example.json --check-config
+python monitor.py --config config.iphone18-pm.example.json --once
+# 设置 BARK_URL 后，持续监控并推送
+python monitor.py --config config.iphone18-pm.example.json
+```
+
+这个 SKU 和商品链接沿用原私人监控脚本；本次只校验配置格式，未重新验证该手机的当前商品页、SKU 对应规格或库存。运行前请在 Apple 页面核对；其他国家或地区的同名手机不可直接复用美国 SKU。
+
+### 默认 AirTag 示例与字段
+
 示例里的 SKU 来自 2026-10-17 Apple 美国 AirTag 页面，R077 在当次匿名查询中返回 `Available Today`。SKU 和库存都会变化，使用前必须自行核对当前页面、包装数量和地区。示例不是购买建议。
 
 | 字段 | 含义 |

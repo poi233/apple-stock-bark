@@ -1,0 +1,18 @@
+{
+  "storefront": "us",
+  "postal_code": "97204",
+  "stores": {
+    "R077": "Pioneer Place",
+    "R090": "Washington Square",
+    "R134": "Bridgeport Village"
+  },
+  "products": [
+    {
+      "name": "iPhone 18 Pro Max 512GB 冰川蓝（美国无锁版）",
+      "part": "MJWC4LL/A",
+      "url": "https://www.apple.com/shop/buy-iphone/iphone-18-pro/6.9-inch-display-512gb-glacier-unlocked"
+    }
+  ],
+  "interval_seconds": 120,
+  "reminder_seconds": 900
+}
